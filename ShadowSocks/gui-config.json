@@ -3,7 +3,7 @@
     {
       "server": "us1.iss.tf",
       "server_port": 443,
-      "password": "30223614",
+      "password": "17266924",
       "method": "aes-256-cfb",
       "remarks": "",
       "auth": false
@@ -11,7 +11,7 @@
     {
       "server": "us2.iss.tf",
       "server_port": 8989,
-      "password": "45820970",
+      "password": "02605237",
       "method": "aes-256-cfb",
       "remarks": "",
       "auth": false
@@ -19,7 +19,7 @@
     {
       "server": "jp3.iss.tf",
       "server_port": 443,
-      "password": "85711909",
+      "password": "05142838",
       "method": "aes-256-cfb",
       "remarks": "",
       "auth": false
@@ -31,7 +31,7 @@
   "enabled": false,
   "shareOverLan": false,
   "isDefault": false,
-  "localPort": 1080,
+  "localPort": 8087,
   "pacUrl": null,
   "useOnlinePac": false,
   "availabilityStatistics": false,
