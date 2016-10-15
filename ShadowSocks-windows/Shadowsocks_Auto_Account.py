@@ -24,7 +24,7 @@ def find_gui_json_file(data):
 def get_data_from_web():
     data=urllib2.urlopen('http://ishadowsocks.com/').read()
     pattern=re.compile('''
-\s*<div class="col-lg-4 text-center">
+\s*<div class=".*">
 \s*<h4>[ABC]服务器地址:(.*)</h4>
 \s*<h4>端口:(.*)</h4>
 \s*<h4>[ABC]密码:(.*)</h4>
@@ -46,11 +46,12 @@ def write_json_conf(datastr):
 
 def update_conf():
     match=get_data_from_web()
+    #print match;
     datastr=read_json_conf()
     pattern=find_gui_json_file(datastr)
-    
+    #print pattern;
     str_index=0
-    for i in range(len(pattern)):
+    for i in range(min(len(match),len(pattern))):
         str_index=datastr.find(pattern[i][0],str_index+1)
         #print str_index
         for j in range(3):
