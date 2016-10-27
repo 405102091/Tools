@@ -14,7 +14,6 @@ var domains = {
   "keepvid.com": 1,
   "unblockdmm.com": 1,
   "lvv2.com": 1,
-  "raw.githubusercontent.com": 1,
   "iobit.com": 1,
   "telegram.org": 1,
   "abc.xyz": 1,
