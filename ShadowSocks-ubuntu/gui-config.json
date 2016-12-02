@@ -1,8 +1,8 @@
 
     {
-      "server": "us1.iss.tf",
-      "server_port": 443,
-      "password": "35240161",
+      "server": "a.iss.tf",
+      "server_port": 1024,
+      "password": "40745937",
       "local_port": 8087,
       "method": "aes-256-cfb",
       "remarks": "",

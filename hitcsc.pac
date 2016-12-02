@@ -17,6 +17,7 @@
 var proxy = "HTTPS hitcsc.arukascloud.io;";
 
 var domains = {
+  "ip.cn": 1,
   "download.kolor.com": 1,
   "messenger.com": 1,
   "tumblr.com": 1,
